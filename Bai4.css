@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+div {
+    margin: 0px auto;
+    width: 560px;
+    font-size: 15px;
+}
+img{
+    width: 500px;
+    height: 350px;
+}   
+h1 {
+    color: rgb(19, 151, 151);
+}
+h4 {
+    background-color: rgb(66, 151, 151);
+    color: white;
+}
+li a {
+    text-decoration: none;
+}
+li a:hover {
+    color: rgb(228, 228, 18);
+}
+.border {
+    height: 430px;
+    width: 560px;
+    background-color: rgb( 194, 186, 186);
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    color: rgb(66, 68, 189);
+}

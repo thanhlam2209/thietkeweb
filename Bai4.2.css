@@ -4,13 +4,15 @@ body{
     background-size: cover;
 }
 div {
+    width: 90%;
+    height: 90%;
     font-size: 20px;
     margin-top: 6%;
-    margin-left: 4%;
+    margin-left: 3%;
     background-color: #fffa;
     border-radius: 1em;
-    width: 90%;
-    height: 250%; 
+    
+    padding: 25px;
 }
 p,h2{
     margin-left: 40px;

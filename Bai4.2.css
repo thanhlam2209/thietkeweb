@@ -1,0 +1,26 @@
+body{
+    background: url(nen.gif);
+  
+    background-size: cover;
+}
+div {
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 4%;
+    background-color: #fffa;
+    border-radius: 1em;
+    width: 90%;
+    height: 250%; 
+}
+p,h2{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+}

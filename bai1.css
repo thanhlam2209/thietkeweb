@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align:baseline;
+}
+
+.sidebar {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100px;
+  background: #f3f6fc;
+}
+.sidebar .nav-link {
+  height: 100%;
+  padding-top: 10px;
+}
+.sidebar .nav-link li {
+  position: relative;
+  list-style: none;
+  align-items: center;
+  height: 70px;
+  padding: 2px 10px;
+  border-radius: 50px;
+  color: #444746;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.sidebar .nav-link li i:hover{
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  background-color: #cfd2d8;
+}
+.sidebar .nav-link li i {
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 24px;
+  border-radius: 100px;
+  height: 50%;
+  width: 60%;
+  color: #001d35; 
+}
+
+.sidebar .nav-link li a {
+  text-decoration: none;
+}
+.sidebar .nav-link li a .link_name {
+  font-size: 16px;
+  color: #444746;
+}
+label {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cfd2d8;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 70%;
+  margin-left: 22px;
+}
+input {
+  position: absolute;
+  opacity: 0;
+}
+.bx-moon {
+  font-size: 25px;
+  margin-top: 45%;
+}
+
+
+.hihi {
+text-align: center;
+width: 90%;
+height: 70%;
+padding: 20px;
+background-image: url(https://lh3.googleusercontent.com/2OrUzHCRSI-V46Z1qJBh90usG6OkKwCbXN80FbrjkWoQz4VfoJjNAoQHLHPQRZWH7dI_m5I1gi48h6xMJ5pK6kkdXmUnXPe4VqwvEdo4QeWRjLV9Oew=w2400-rj);
+border-radius: 20px;
+position: absolute;
+margin-left: 120px;
+margin-top: 15px;
+}
+.hihi h{
+  font-size: 100px;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: -23%;
+}
+.hihi p{
+  font-size: 20px;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 23%;
+}
+.hihi button{
+  color: #fff;
+  font-size: 25px;
+  border-radius: 45px;
+  background-color: blue;
+  height: 10%;
+  width: 15%;
+  position: absolute;
+  margin-top: 23%;
+  margin-left: -10%;
+}
+button:hover {
+  background-color: rgba(0, 0, 255, 0.658);
+}
+.phan1 h{
+  font-size: 50px;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 17%;
+}
+.phan1 .phan1-1{
+  width: 25%;
+  height: 45%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 16%;
+}
+.phan1 .phan1-1 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan1 .phan1-1 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan1 .phan1-1 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan1 .phan1-2{
+  width: 25%;
+  height: 45%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 42.5%;
+}
+.phan1 .phan1-2 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan1 .phan1-2 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan1 .phan1-2 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan1 .phan1-3{
+  width: 25%;
+  height: 45%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 69%;
+}
+.phan1 .phan1-3 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan1 .phan1-3 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan1 .phan1-3 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan1 .phan1-1:hover{
+  background-color: #b4c8ee;
+}
+.phan1 .phan1-2:hover{
+  background-color: #b4c8ee;
+}
+.phan1 .phan1-3:hover{
+  background-color: #b4c8ee;
+}
+.phan2 h{
+  font-size: 50px;
+  position: absolute;
+  margin-top: 70%;
+  margin-left: 17%;
+}
+.phan2 .phan2-1{
+  width: 25%;
+  height: 42%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 75%;
+  margin-left: 16%;
+}
+.phan2 .phan2-1 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan2 .phan2-1 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan2 .phan2-1 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan2 .phan2-2{
+  width: 25%;
+  height: 42%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 75%;
+  margin-left: 42.5%;
+}
+.phan2 .phan2-2 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan2 .phan2-2 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan2 .phan2-2 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan2 .phan2-3{
+  width: 25%;
+  height: 42%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 75%;
+  margin-left: 69%;
+}
+.phan2 .phan2-3 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan2 .phan2-3 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan2 .phan2-3 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan2 .phan2-4{
+  width: 25%;
+  height: 42%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 96%;
+  margin-left: 16%;
+}
+.phan2 .phan2-4 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan2 .phan2-4 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan2 .phan2-4 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan2 .phan2-5{
+  width: 25%;
+  height: 42%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 96%;
+  margin-left: 42.5%;
+}
+.phan2 .phan2-5 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan2 .phan2-5 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan2 .phan2-5 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan2 .phan2-6{
+  width: 25%;
+  height: 42%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 96%;
+  margin-left: 69%;
+}
+.phan2 .phan2-6 img{
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+.phan2 .phan2-6 h1{
+  font-size: 25px;
+  height: 40px;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.phan2 .phan2-6 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan2 .phan2-1:hover{
+  background-color: #b4c8ee;
+}
+.phan2 .phan2-2:hover{
+  background-color: #b4c8ee;
+}
+.phan2 .phan2-3:hover{
+  background-color: #b4c8ee;
+}
+.phan2 .phan2-4:hover{
+  background-color: #b4c8ee;
+}
+.phan2 .phan2-5:hover{
+  background-color: #b4c8ee;
+}
+.phan2 .phan2-6:hover{
+  background-color: #b4c8ee;
+}
+.phan3 h{
+  font-size: 50px;
+  position: absolute;
+  margin-top: 120%;
+  margin-left: 17%;
+}
+.phan3 .phan3-1{
+  width: 40%;
+  height: 10%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 125%;
+  margin-left: 16%;
+}
+.phan3 .phan3-1 h1{
+  font-size: 25px;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.phan3 .phan3-1 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan3 .phan3-2{
+  width: 40%;
+  height: 10%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 125%;
+  margin-left: 57%;
+}
+.phan3 .phan3-2 h1{
+  font-size: 25px;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.phan3 .phan3-2 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan3 .phan3-3{
+  width: 40%;
+  height: 10%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 131%;
+  margin-left: 16%;
+}
+.phan3 .phan3-3 h1{
+  font-size: 25px;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.phan3 .phan3-3 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan3 .phan3-4{
+  width: 40%;
+  height: 10%;
+  border-radius: 20px;
+  background: #f8fafd;
+  position: absolute;
+  margin-top: 131%;
+  margin-left: 57%;
+}
+.phan3 .phan3-4 h1{
+  font-size: 25px;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.phan3 .phan3-4 p{
+  font-size: 17px;
+  position: relative;
+  margin-left: 5%;
+}
+.phan3 .phan3-1:hover{
+  background-color: #b4c8ee;
+}
+.phan3 .phan3-2:hover{
+  background-color: #b4c8ee;
+}
+.phan3 .phan3-3:hover{
+  background-color: #b4c8ee;
+}
+.phan3 .phan3-4:hover{
+  background-color: #b4c8ee;
+}
+
+.cuoi i{
+
+  width: 100px;
+  height: 10%;
+  font-size: 40px;
+  position: absolute;
+  margin-top: -12%;
+  margin-left: 0%;
+}
+.cuoi {
+  font-size: 18px;
+  position: absolute;
+  margin-top: 149%;
+  margin-left: 16%;
+}
+.cuoi1 {
+
+  font-size: 18px;
+  position: absolute;
+  margin-top: -22%;
+  margin-left: 125%;
+  display: grid;
+  grid-template-columns: 150px 170px 200px ;
+  grid-auto-rows: 35px;
+}
+.cuoi_item1{
+  grid-auto-rows: 35px;
+  color: #0b57d0;
+  display: grid;
+  grid-template-columns: 150px 170px 200px ;
+}
+.cuoi_item1 .item1:hover {
+    color: #001d35;
+    text-decoration: underline;
+}
+.cuoi_item1 .item2:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item3:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item4:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item5:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item6:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item7:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item8:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item8 {
+  grid-column: 2;
+}
+.cuoi_item1 .item8:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item10 {
+  grid-column: 2;
+}
+.cuoi_item1 .item10:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item7 {
+  grid-column: 1;
+}
+.cuoi_item1 .item7:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi_item1 .item9 {
+  grid-column: 1;
+}
+.cuoi_item1 .item9:hover {
+  color: #001d35;
+  text-decoration: underline;
+}
+.cuoi2 {
+  font-size: 40px;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: 150px 170px 200px 200px ;
+}
+.cuoi_item2{
+  font-size: 20px;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+.cuoi_item2{
+  display: grid;
+  grid-template-columns: 150px 170px 200px 200px;
+}
+.cuoi_item2 .item1:hover {
+  text-decoration: underline;
+}
+.cuoi_item2 .item2:hover {
+  text-decoration: underline;
+}
+.cuoi_item2 .item3:hover {
+  text-decoration: underline;
+}
+.cuoi_item2 .item4:hover {
+  text-decoration: underline;
+}

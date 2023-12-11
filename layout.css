@@ -1,0 +1,27 @@
+.container {
+    margin: 0 auto;
+    color: white;
+    box-sizing: border-box;
+    background-color: rgb(245, 23, 60);
+}
+.header {
+    padding: 20px;
+    font-size: 20px;
+}
+.col {
+    float: left;
+    width: 33%;
+    margin-left: 2px;
+}
+.body1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 600px) {
+    .col {
+      width: 100%;
+      margin: 0;
+    }
+}
